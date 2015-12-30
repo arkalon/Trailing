@@ -15,7 +15,14 @@ public class Trailing1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Loving this");
+
+        String guitar = "Loud";
+        if(guitar.contains("Loud")){
+            guitar = "Not loud";
+        } else{
+            guitar = "Loud";
+        }
+        System.out.println(guitar);
     }
     
 }
